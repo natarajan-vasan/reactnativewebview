@@ -2,7 +2,7 @@ import React from 'react';
 import { WebView } from 'react-native-webview';
 function App(): React.JSX.Element {
   return <WebView
-    source={{ uri: 'https://dataappsfilesuat.worldbank.org/f-one/DS00520/RS01267/IBRD_Statement_of_Loans_Latest_Available_Snapshot.csv' }}
+    source={{ uri: 'https://financesone.worldbank.org/' }}
     allowFileAccess={true}
     allowUniversalAccessFromFileURLs={true}
     javaScriptEnabled={true}
